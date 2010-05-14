@@ -2,7 +2,7 @@
 " Author:       David Mohundro <drmohundro@gmail.com>
 " URL:          ...
 "
-" This script is a grep-provider for the PowerShell find-string
+" This script is just a provider for the PowerShell find-string
 " script, that is itself an homage to the Ack utility. In fact,
 " this script is based *heavily* on the ack.vim script from
 " http://github.com/mileszs/ack.vim/. So, thanks to all of the
