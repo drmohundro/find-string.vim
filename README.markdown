@@ -14,6 +14,13 @@ only work on the Windows platform, at least unless there is ever a Mono version
 of PowerShell. If you want this functionality on other platforms, just use
 ack.
 
+## Usage ##
+
+    :FindString {pattern} [{filetypes}]
+
+So, if you wanted to search for 'command' in all .vim files, you would type
+`:FindString *.vim`.
+
 ## Need help?
 
 Visit my [website](http://www.mohundro.com/blog) and shoot me a line.
