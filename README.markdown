@@ -2,7 +2,7 @@
 
 This script is just a provider for the PowerShell 
 [find-string](http://github.com/drmohundro/Find-String)
-script, that is itself an homage to the 
+script, that is itself an homage to 
 [ack](http://search.cpan.org/~petdance/ack/ack). In fact, this script is 
 based *heavily* on the [ack.vim script](http://github.com/mileszs/ack.vim/). 
 The grepprg and grepformat parts of the script were copied over with variables

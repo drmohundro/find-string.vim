@@ -3,7 +3,7 @@
 " URL:          ...
 "
 " This script is just a provider for the PowerShell find-string
-" script, that is itself an homage to the Ack utility. In fact,
+" script, that is itself an homage to Ack. In fact,
 " this script is based *heavily* on the ack.vim script from
 " http://github.com/mileszs/ack.vim/. So, thanks to all of the
 " aforementioned projects.
