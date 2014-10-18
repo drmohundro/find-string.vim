@@ -16,12 +16,17 @@ ack.
 
 ## Installation ##
 
-I recommend using pathogen for managing vim plugins, but otherwise, just drop
-the ./plugin/find-string.vim file in your ~/.vim/plugin directory.
+### Vundle
 
-Another installation requirement for now is both files under ./lib
-(find-string-wrapper.ps1 and ps-find-string.bat) should be in your PATH
-somewhere. I'm sure there is a better way to do this (likely by having vim know
+    Bundle 'drmohundro/find-string.vim'
+    
+### NeoBundle
+
+    NeoBundle 'drmohundro/find-string.vim'
+    
+In addition, another installation requirement for now is that both files under ./lib
+(`find-string-wrapper.ps1` and `ps-find-string.bat`) need to be in your PATH. 
+I'm sure there is a better way to do this (likely by having vim know
 to execute these scripts where they exist), but I'm still learning. It works
 for me. Maybe it will work for you!
 
@@ -34,4 +39,4 @@ So, if you wanted to search for 'command' in all .vim files, you would type
 
 ## Need help?
 
-Visit my [website](http://mohundro.com/) and shoot me a line.
+Visit my [website](http://mohundro.com/) and shoot me a line or open an issue.
